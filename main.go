@@ -12,7 +12,7 @@ func handleHello(w http.ResponseWriter, r *http.Request) {
 	if name == "" {
 		name = "World"
 	}
-	fmt.Fprintf(w, "Hello %s!.You are Awesome!!", name)
+	fmt.Fprintf(w, "Hello %s!.You are TERRIBLE!!", name)
 }
 
 func main() {
